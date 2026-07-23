@@ -1,0 +1,21 @@
+{
+  "repo": "andesite",
+  "feeds": [
+    {
+      "source": "https://andesite.ai/",
+      "feed_url": "https://andesite.ai/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://andesite.ai/blog/",
+      "feed_url": "https://andesite.ai/blog/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}

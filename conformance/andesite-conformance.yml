@@ -1,0 +1,14 @@
+generated: '2026-07-17'
+method: searched
+source: https://andesite.ai/
+standards:
+- id: fedramp-high
+  conforms: true
+  evidence: "Andesite states FedRAMP High Authorization on andesite.ai and its trust center (compliancehigh.andesite.ai)"
+- id: soc2-type2
+  conforms: true
+  evidence: "Andesite states SOC 2 Type II compliance on andesite.ai and its trust center"
+notes: >-
+  Compliance posture is asserted on the public website and hosted trust center;
+  no public API, OpenAPI, or developer specification is published, so cross-cutting
+  API standards (oauth2, rfc9457, pagination, idempotency) could not be derived.

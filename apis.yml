@@ -1,20 +1,67 @@
 aid: andesite
 name: Andesite
-description: 'Andesite is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. Sector: defense-government. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Andesite is a cybersecurity company building a Human+AI Security Operations
+  Center (SOC) platform that connects human analysts, AI agents, and security data to
+  automate and accelerate threat detection, investigation, and response. Its Decision
+  Fabric connects data silos and organizational context, while Evidentiary AI provides
+  audit trails for every AI-driven action. Andesite deploys as SaaS or self-managed,
+  carries FedRAMP High Authorization and SOC 2 Type II compliance, and is a General
+  Catalyst portfolio company operating in the defense and government sector.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://andesite.ai/wp-content/uploads/2026/02/Website-Thumnail-3.jpg
 url: https://raw.githubusercontent.com/api-evangelist/andesite/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: portfolio-lead-enriched
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Defense Government
+- Cybersecurity
+- Security Operations
+- Artificial Intelligence
+- Threat Detection
+- SOC
+- Compliance
 apis: []
+common:
+- type: Website
+  url: https://andesite.ai/
+- type: Blog
+  url: https://andesite.ai/blog/
+- type: BlogRSS
+  url: https://andesite.ai/blog/feed/
+- type: Support
+  url: https://andesite.ai/contact-us/
+- type: PrivacyPolicy
+  url: https://andesite.ai/privacy/
+- type: TermsOfService
+  url: https://andesite.ai/terms/
+- type: TrustCenter
+  url: https://compliancehigh.andesite.ai/home
+- type: Compliance
+  url: https://compliancehigh.andesite.ai/home
+- type: Conformance
+  url: conformance/andesite-conformance.yml
+- type: TrustCenter
+  url: security/andesite-trust-center.yml
+- type: DomainSecurity
+  url: security/andesite-domain-security.yml
+- type: LLMsTxt
+  url: llms/andesite-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

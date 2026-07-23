@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://andesite.ai/
+url: https://compliancehigh.andesite.ai/home
+certifications:
+- FedRAMP High
+- SOC 2 Type II
+evidence:
+- source: https://andesite.ai/
+  keywords:
+  - fedramp high authorization
+  - soc 2 type ii
+- source: https://compliancehigh.andesite.ai/home
+  keywords:
+  - trust center
+notes: >-
+  Trust center is hosted on TrustShare at compliancehigh.andesite.ai (a distinct host,
+  so the standard trust.<domain>/security.<domain> probe did not auto-detect it).
+  FedRAMP High and SOC 2 Type II are stated directly on the andesite.ai homepage.
